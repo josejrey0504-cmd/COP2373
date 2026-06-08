@@ -34,7 +34,7 @@ def main():
     Control the ticket-selling process.
     """
 
-    tickets_remaining = 20
+    tickets_remaining = 10
     buyer_count = 0
 
     while tickets_remaining > 0:
