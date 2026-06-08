@@ -10,8 +10,8 @@ def get_ticket_amount(remaining_tickets):
 
     while True:
         tickets_requested = int(
-            input(
-                f"How many tickets would you like to buy? "
+            input
+            ("Enter the number of tickets you would like to purchase: ")
                 f"(1-4, {remaining_tickets} remaining): "
             )
         )
