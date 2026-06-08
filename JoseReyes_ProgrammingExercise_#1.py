@@ -35,20 +35,20 @@ def main():
     """
 
     tickets_remaining = 10
-    buyer_count = 0
+    customer_count = 0
 
     while tickets_remaining > 0:
         tickets_bought = get_ticket_amount(tickets_remaining)
 
         tickets_remaining -= tickets_bought
 
-        buyer_count += 1
+        customer_count += 1
 
         print(f"Tickets remaining: {tickets_remaining}")
         print()
 
     print("All tickets have been sold.")
-    print(f"Total buyers: {buyer_count}")
+    print(f"Total buyers: {customer_count}")
 
 
 main()
